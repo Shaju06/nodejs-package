@@ -1,7 +1,7 @@
 {
   "name": "api-detect-package",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Detect-API: A Node.js CLI tool to analyze APIs. Measure response time, inspect JSON structure, and review security headers effortlessly from your terminal.",
   "main": "dist/index.js",
   "type": "module",
   "bin": {
@@ -17,7 +17,17 @@
     "type": "git",
     "url": "git+https://github.com/Shaju06/nodejs-package.git"
   },
-  "keywords": [],
+  "keywords": [
+    "API",
+    "CLI",
+    "Node.js",
+    "TypeScript",
+    "JSON",
+    "analyzer",
+    "developer-tools",
+    "security",
+    "performance"
+  ],
   "author": "Varinder Pal Singh",
   "license": "ISC",
   "bugs": {
