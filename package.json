@@ -1,0 +1,38 @@
+{
+  "name": "api-detect-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "detect-api": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaju06/nodejs-package.git"
+  },
+  "keywords": [],
+  "author": "Varinder Pal Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shaju06/nodejs-package/issues"
+  },
+  "homepage": "https://github.com/Shaju06/nodejs-package#readme",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.1",
+    "node-fetch": "^3.3.2",
+    "ora": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.0",
+    "@types/node-fetch": "^2.6.13",
+    "typescript": "^5.9.3"
+  }
+}
